@@ -1,6 +1,5 @@
 from flask import Flask
-
-from ... import settings
+import settings
 from . import upload, statistics
 
 app = Flask(settings.application_name)

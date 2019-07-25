@@ -1,5 +1,5 @@
 import argparse
-from .interface.backend.base import app
+from interface.backend.base import app
 
 def main(host, port, debug):
 	app.run(host, port, debug)

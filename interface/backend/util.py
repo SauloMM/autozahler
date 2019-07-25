@@ -1,4 +1,4 @@
-from ... import settings
+import settings
 
 def allowed_file_format(filename):
 	"""Verifica se o formato do arquivo é permitido"""

@@ -4,8 +4,8 @@ from flask import flash, request, redirect, url_for, render_template
 from werkzeug.utils import secure_filename
 
 from . import util
-from ... import settings
-from ...utils.counter import counter 
+import settings
+from utils.counter import counter 
 
 def file(upload_folder):
 	'''código retirado de http://flask.pocoo.org/docs/1.0/patterns/fileuploads/'''
